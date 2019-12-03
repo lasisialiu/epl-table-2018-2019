@@ -1,7 +1,4 @@
 .alius-table{
-    margin:0 auto;
-    width: 960px;
-
     font-family: 'Open Sans', sans-serif;
 
 }
@@ -9,6 +6,7 @@ table{
     border-collapse: collapse;
     border: 1px solid #f2f2f2;
     width: 100%;
+    white-space: nowrap;
 }
 
 
@@ -31,6 +29,7 @@ table tr {
 .aliu{
     display: flex;
     align-items: center;
+    
 }
 
 .green{
@@ -53,75 +52,6 @@ table tr {
     background-color: red;
     margin: 2px;
     border-radius:50%;
-}
-
-
-
-.green{
-    width: 10px;
-    height: 10px;
-    background-color: green;
-    margin: 2px;
-    border-radius:50%;
-
-}
-
-.green{
-    width: 10px;
-    height: 10px;
-    background-color: green;
-    margin: 2px;
-    border-radius:50%;
-
-}
-
-.red{
-    width: 10px;
-    height: 10px;
-    background-color: red;
-    margin: 2px;
-    border-radius:50%;
-}
-
-.grey{
-    width: 10;
-    height: 10px;
-    background-color: grey;
-    margin: 2px;
-    border-radius:50%
-}
-
-.grey{
-    width: 10;
-    height: 10px;
-    background-color: grey;
-    margin: 2px;
-    border-radius:50%
-}
-
-.green{
-    width: 10px;
-    height: 10px;
-    background-color: green;
-    margin: 2px;
-    border-radius:50%;
-
-}
-
-.red{
-    width: 10px;
-    height: 10px;
-    background-color: red;
-    margin: 2px;
-    border-radius:50%;
-}
-
-.grey{
-    width: 10;
-    height: 10px;
-    background-color: grey;
-    margin: 2px;
-    border-radius:50%
 }
 
 .blue{
@@ -172,7 +102,19 @@ margin: 2px;
     overflow-x:auto;
 }
 
+.tope{
+    display:flex;
+    align-items:center;
+    
+}
 
+.tope img{
+    margin-right: 30px;
+}
+th, td {
+    padding: 10px;
+    text-align:left ;
+}
 @media screen and (max-width:600px){
     .ola{
         display: none;
@@ -180,4 +122,12 @@ margin: 2px;
     .oladipupo{
         flex-direction: column;
     }
+}
+@media screen and (min-width:800px){
+.alius-table{
+    margin:0 auto;
+    width: 800px;
+    font-family: 'Open Sans', sans-serif;
+
+}
 }
